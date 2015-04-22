@@ -23,7 +23,7 @@ public class WhenYouCreateAGrid {
     @Test
     public void shouldBeAbleToSeedAGridWithAString() {
 
-        String gridContents = "..." + NEW_LINE + "..." + NEW_LINE + "...";
+        String gridContents = "..buka" + NEW_LINE + "..buka." + NEW_LINE + "...";
 
         String expectedPrintedGrid = "..." + NEW_LINE + "..." + NEW_LINE + "..." + NEW_LINE;
 
