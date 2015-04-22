@@ -10,7 +10,7 @@ public class WhenYouStoreGamesInADatabase {
     }
 
     @Test
-    public void should_load_saved_games() {
+    public void should_load_saved_gams() {
     }
 
 }

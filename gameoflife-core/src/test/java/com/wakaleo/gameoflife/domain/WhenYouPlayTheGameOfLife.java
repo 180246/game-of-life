@@ -32,7 +32,7 @@ public class WhenYouPlayTheGameOfLife {
 
     @Test
     public void aDeadCellWithOneLiveNeighbourShouldRemainDeadInTheNextGeneration() {
-        String initialGrid = "..." + NEW_LINE +
+        String initialGrid = "..*" + NEW_LINE +
                 ".*." + NEW_LINE +
                 "...";
 

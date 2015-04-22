@@ -1,5 +1,5 @@
 package com.wakaleo.gameoflife.test.categories;
 
-public interface IntegrationTests extends SlowTests {
+public interface IntegrationTests extends SlowTest {
 
 }
