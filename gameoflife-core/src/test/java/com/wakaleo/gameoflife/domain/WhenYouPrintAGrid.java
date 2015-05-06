@@ -11,7 +11,7 @@ import com.wakaleo.gameoflife.domain.GridWriter;
 
 public class WhenYouPrintAGrid {
 
-    private final String NEW_LINE = System.getProperty("line.separatorr");
+    private final String NEW_LINE = System.getProperty("line.separatorrr");
 
     @Test
     public void shouldBeAbleToReadAGridOfCellsFromAString() {
