@@ -19,8 +19,8 @@ public class WhenYouPlayTheGameOfLife {
                 "..." + NEW_LINE +
                 "...";
 
-        String expectedNextGrid = "..." + NEW_LINE +
-                "..." + NEW_LINE +
+        String expectedNextGrid = "..*" + NEW_LINE +
+                "..*" + NEW_LINE +
                 "..." + NEW_LINE + "";
 
         Universe theUniverse = new Universe(seededWith(initialGrid));
@@ -33,8 +33,8 @@ public class WhenYouPlayTheGameOfLife {
     @Test
     public void aDeadCellWithOneLiveNeighbourShouldRemainDeadInTheNextGeneration() {
         String initialGrid = "..." + NEW_LINE +
-                ".*." + NEW_LINE +
-                "...";
+                "..." + NEW_LINE +
+                ".*.";
 
         String expectedNextGrid = "..." + NEW_LINE +
                 "..." + NEW_LINE +
