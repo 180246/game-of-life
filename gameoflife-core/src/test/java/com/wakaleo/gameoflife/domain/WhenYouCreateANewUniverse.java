@@ -26,7 +26,7 @@ public class WhenYouCreateANewUniverse {
     @Test
     public void aUniverseSeededWithAnEmpyGridContentWillContainAnEmptyGrid() {
 
-        String seededGrid = "..." + NEW_LINE + "..." + NEW_LINE + "..." + NEW_LINE + "";
+        String seededGrid = ".." + NEW_LINE + ".." + NEW_LINE + ".." + NEW_LINE + "";
 
         Universe theUniverse = new Universe(seededWith(seededGrid));
         String currentGrid = theUniverse.getGrid();

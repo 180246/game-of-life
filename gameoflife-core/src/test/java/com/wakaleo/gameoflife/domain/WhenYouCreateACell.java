@@ -23,7 +23,7 @@ public class WhenYouCreateACell {
 
     @Test
     public void aLiveCellShouldBePrintedAsAnAsterisk() {
-        assertThat(Cell.LIVE_CELL.toString(), is("*"));
+        assertThat(Cell.LIVE_CELL.toString(), is("q"));
     }
 
 
@@ -34,7 +34,7 @@ public class WhenYouCreateACell {
 
     @Test
     public void aDeadCellSymbolShouldBeADot() {
-        assertThat(Cell.DEAD_CELL.getSymbol(), is("."));
+        assertThat(Cell.DEAD_CELL.getSymbol(), is("q"));
     }
 
     @Test
