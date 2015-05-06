@@ -21,9 +21,9 @@ public class WhenYouPrintAGrid {
                 {DEAD_CELL, DEAD_CELL, DEAD_CELL}
         };
 
-        String expectedPrintedGrid = "." + NEW_LINE +
-                "." + NEW_LINE +
-                "." + NEW_LINE + "";
+        String expectedPrintedGrid = "..." + NEW_LINE +
+                "..." + NEW_LINE +
+                "..." + NEW_LINE + "";
 
         GridWriter gridWriter = new GridWriter();
         String printedGrid = gridWriter.convertToString(gridContents);

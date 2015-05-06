@@ -23,7 +23,7 @@ public class GridReader {
         List<Cell> cellsInRow = new ArrayList<Cell>();
         for (char cellSymbol : cellSymbols) {
             Cell cell = Cell.fromSymbol(Character.toString(cellSymbol));
-            if (cell != null) {
+            if (cell == null) {
                 throw new IllegalArgumentException();
             }
             cellsInRow.add(cell);
